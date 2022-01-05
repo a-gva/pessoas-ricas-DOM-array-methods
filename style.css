@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Jost&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Fira+Sans+Condensed&family=Jost&family=Oswald&display=swap');
+
+/* seletor universal (se aplica a tudo) */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a08a8a;
+  background-image: linear-gradient(0deg, #a08a8a 0%, #eef3f3 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  font-family: 'Fira Sans Condensed', sans-serif;
+
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 800px;
+}
+
+aside {
+  padding: 10px 20px;
+  width: 250px;
+  border-right: 1px solid #111;
+}
+
+button {
+  cursor: pointer;
+  background-color: white;
+  border: solid 1px #111;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+main {
+  flex: 1;
+  padding: 10px 20px;
+}
+
+h2 {
+  border-bottom: 1px solid #111;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 100;
+  margin: 0 0 20px;
+}
+
+h3 {
+  background-color: white;
+  border-bottom: 1px solid #111;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 100;
+  margin: 20px 0 0;
+}
+
+.person {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.img-icon {
+  width: 150px;
+  height: auto;
+}
